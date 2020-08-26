@@ -1,0 +1,12 @@
+# Core
+dash==1.7.0
+gunicorn==19.9.0
+numpy==1.16.3
+pandas==0.24.2
+scikit-learn==0.22.0
+scipy==1.2.1
+pillow==7.0.0
+keras==2.4.3
+dash_bootstrap_components
+tensorflow
+biopython

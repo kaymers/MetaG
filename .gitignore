@@ -1,0 +1,83 @@
+*.zip
+*.iml
+*.xml
+mnist2500_labels.txt
+mnist2500_X.txt
+notebooks/.ipynb_checkpoints
+mnist_data.csv
+mnist_label.csv
+input_2000.csv
+input_750.csv
+input_data.csv
+data/cifar_3000*
+fasta_files/300-400_clostro20_rubro30_soran4_erythro15_fine12_myco10_micro7_lachno2.fasta
+fasta_files/400-500_clostro0.5_rubro0.3_fine0.13_soran0.05_erythro_0.02.fasta
+fasta_files/400-500_clostro21_rubro33_lachno13_erythro33.fasta
+fasta_files/400-500_clostro25_rubro25_soran25_erythro25.fasta
+fasta_files/400-500_clostro50_rubro30_fine13_soran5_erythro2.fasta
+fasta_files/AtlanticRightWhalemetagenome.fasta
+fasta_files/input_small.fasta
+fasta_files/my_metag.fasta
+fasta_files/newplot.png
+fasta_files/syn 2.fasta
+fasta_files/synthetic 1.fasta
+genomics_tool_backend/blast/data/
+genomics_tool_backend/mapper/data/
+genomics_tool_backend/taxonomy/data/
+results/300-400_clostro20_rubro30_soran4_erythro15_fine12_myco10_micro7_lachno2/
+results/400-500_clostro21_rubro33_lachno13_erythro33/
+results/400-500_clostro25_rubro25_soran25_erythro25/
+results/400-500_clostro50_rubro30_fine13_soran5_erythro2/
+results/AtlanticRightWhalemetagenome/
+results/Mycobacterium avium/3d_$$_3_$$_1000_$$_[32,16,x,16,32]_$$_tanh.csv
+results/Mycobacterium avium/3d_$$_4_$$_250_$$_[136,64,x,64,136]_$$_tanh.csv
+results/input_small/
+results/my_metag/
+results/syn 2/
+results/synthetic 1/
+venv/
+AAGA01.1.fsa_nt
+AAGA01.1.fsa_nt.gz
+fasta_files/Atlantic Right Whale metagenome.fasta
+fasta_files/Black Band Disease microbial consortium from coral mucus.fasta
+fasta_files/Dichelobacter nodosus.fasta
+fasta_files/Ehrlichia canis.fasta
+fasta_files/Healthy human gut.fasta
+fasta_files/Indian Ocean OMZ sediment metagenomes.fasta
+fasta_files/S2B_Himalaya_Metagenome.fasta
+fasta_files/Soudan Mine Metagenome.fna
+fasta_files/Synthetic2.fasta
+fasta_files/Synthetic3.fasta
+fasta_files/Synthetic4.fasta
+fasta_files/Synthetic4_small.fasta
+fasta_files/bioreactor sludge metagenome.fasta
+fasta_files/for_pie_charts.fasta
+fasta_files/microsatellite_simulated_reads.fasta
+fasta_files/my_input_small.fasta
+genomics_tool_backend/input/400-500_clostro0.33_rubro0.33_erythro_0.33.fasta
+my input small.fasta
+my.input small f.fasta
+my.input.small.fasta
+results/AAGA01/2d_$$_4_$$_2050_$$_[136,64,x,64,136]_$$_tanh.csv
+results/Atlantic Right Whale metagenome/
+results/Black Band Disease microbial consortium from coral mucus/
+results/Dichelobacter nodosus/
+results/Healthy human gut/
+results/Indian Ocean OMZ sediment metagenomes/
+results/Mycobacterium avium/2d_$$_3_$$_250_$$_[32,x,32]_$$_tanh.csv
+results/Soudan Mine Metagenome/
+results/Synthetic2/
+results/Synthetic3/
+results/Synthetic4/
+results/Synthetic4_small/
+results/bioreactor sludge metagenome/
+results/for_pie_charts/
+results/microsatellite_simulated_reads/
+results/AAGA01/2d_$$_4_$$_2050_$$_[136,64,x,64,136]_$$_tanh.csv
+results/Mycobacterium avium/2d_$$_3_$$_250_$$_[32,x,32]_$$_tanh.csv
+
+
+*.pyc
+.vscode/
+env
+.DS_Store
