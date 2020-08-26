@@ -25,7 +25,7 @@ If you do not have blast configured in your machine follow the below steps.
 
 8. Set *blast_db_directory* and *blast_db_name* according to the blast setup in your machine. Look at the sample values already in the file.
 
-9. Set your rankedlineage.dmp path for the field *rankedlineage_path* 
+9. Set your rankedlineage.dmp path (full path; directory path + filename) for the field *rankedlineage_path* 
 
 # Running
 
