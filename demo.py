@@ -26,7 +26,7 @@ import dash_table
 from plotly.colors import n_colors
 from Bio import SeqIO
 import metagenomics_processor
-from genomics_tool_backend import metag_processor
+from MetaG_backend import backend
 import metagenomics_counter
 import pyVectorizer
 # from helpers import load_mnist, parse_image, numpy_to_b64, create_img, label_mapping
@@ -930,7 +930,7 @@ def demo_callbacks(app):
 
                 training_percentage = training_percentage/100
                 if folder_created_now:
-                    l = metag_processor.process(input_file_path, int(kmer), int(iterations), act, ae,training_percentage)
+                    l = backend.process(input_file_path, int(kmer), int(iterations), act, ae,training_percentage)
                 else:
                     import re
                     for f in os.listdir('./results/'+str(fasta_name)):
@@ -940,7 +940,7 @@ def demo_callbacks(app):
                             embedding_df = pd.read_csv(
                                 "./results/"+str(fasta_name)+"/"+str(f), index_col=0, encoding="ISO-8859-1"
                             )
-                            l = metag_processor.process_ae(input_file_path, int(kmer), int(iterations), act, ae,
+                            l = backend.process_ae(input_file_path, int(kmer), int(iterations), act, ae,
                                                         training_percentage, embedding_df)
                             break
                         elif re.match('2d', f):
@@ -948,12 +948,12 @@ def demo_callbacks(app):
                             embedding_df = pd.read_csv(
                                 "./results/"+str(fasta_name)+"/"+str(f), index_col=0, encoding="ISO-8859-1"
                             )
-                            l = metag_processor.process_ae(input_file_path, int(kmer), int(iterations), act, ae,
+                            l = backend.process_ae(input_file_path, int(kmer), int(iterations), act, ae,
                                                         training_percentage, embedding_df)
                             break
 
                         else:
-                            l = metag_processor.process(input_file_path, int(kmer), int(iterations), act, ae,
+                            l = backend.process(input_file_path, int(kmer), int(iterations), act, ae,
                                                            training_percentage)
 
                 print("out of process")

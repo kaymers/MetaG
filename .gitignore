@@ -81,3 +81,6 @@ results/Mycobacterium avium/2d_$$_3_$$_250_$$_[32,x,32]_$$_tanh.csv
 .vscode/
 env
 .DS_Store
+
+
+MetaG_backend/
