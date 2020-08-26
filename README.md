@@ -31,14 +31,22 @@ dash-ma-venv\Scripts\activate
 source dash-ma-venv/bin/activate
 ```
 
-Clone the git repo, then install the requirements with pip
+Clone this git repo, then install the requirements with pip
 
 ```
 git clone 
-cd fyp_visualization_app
+cd MetaG
 
 pip install -r requirements.txt
 ```
+
+Configure the Backend
+```
+Clone https://github.com/kaymers/MetaG_backend into THIS directory. (.i.e resulting file structure would be MetaG[this directory]/MetaG_backend[backend])
+
+Follow the instructions in the https://github.com/kaymers/MetaG_backend repository.
+```
+
 
 Run the app
 
