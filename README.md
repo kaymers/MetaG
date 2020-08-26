@@ -34,7 +34,7 @@ source dash-ma-venv/bin/activate
 Clone this git repo, then install the requirements with pip
 
 ```
-git clone 
+git clone https://github.com/kaymers/MetaG
 cd MetaG
 
 pip install -r requirements.txt
