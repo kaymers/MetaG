@@ -33,18 +33,25 @@ def vectorize_file(path, k):
     file=SeqIO.parse(path, "fasta")
     current_seq=0
     vectors = []
+    ii=0
     for i in file:
-        vec = vectorize_seq(str(i.seq), k)
-        vectors.append(vec)
-        if not(current_seq%1000): print("Processing sequence "+str(current_seq))
-        current_seq+=1
+        ii+=1
+        if ii%100000==0:print(ii)
+        if ii%100==0:
+            vec = vectorize_seq(str(i.seq), k)
+            vectors.append(vec)
+            if not(current_seq%1000): print("Processing sequence "+str(current_seq))
+            current_seq+=1
     return vectors
 
 def count_acgt_file(path):
     file=SeqIO.parse(path, "fasta")
     current_seq=0
     acgt = [0,0,0,0]
+    ii=0
     for i in file:
+        ii+=1
+        if ii%100000==0:print(ii)
         seq = str(i.seq)
         acgt[0] += (seq.count("A")+seq.count("a"))
         acgt[1] += (seq.count("C")+seq.count("c"))
