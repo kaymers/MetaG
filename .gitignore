@@ -10,6 +10,8 @@ input_2000.csv
 input_750.csv
 input_data.csv
 data/cifar_3000*
+fasta_files
+results
 fasta_files/300-400_clostro20_rubro30_soran4_erythro15_fine12_myco10_micro7_lachno2.fasta
 fasta_files/400-500_clostro0.5_rubro0.3_fine0.13_soran0.05_erythro_0.02.fasta
 fasta_files/400-500_clostro21_rubro33_lachno13_erythro33.fasta
